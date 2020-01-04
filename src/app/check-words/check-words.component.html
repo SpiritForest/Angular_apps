@@ -1,0 +1,16 @@
+<button (click)="sendButtonClick()">Send</button>
+<table>
+    <thead>
+        <td>Number</td>
+        <td>Word</td>
+    </thead>
+    <tbody>
+        <tr *ngFor="let oWord of aVocab; index as i">
+            <td>{{i + 1}}</td>
+            <td>{{oWord.sEn}}</td>
+            <td>
+                <button (click)="sendButtonClick(oWord)">Send word</button>
+            </td>
+        </tr>
+    </tbody>
+</table>
