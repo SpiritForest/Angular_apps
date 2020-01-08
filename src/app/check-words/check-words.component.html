@@ -1,16 +1,18 @@
-<button (click)="sendButtonClick()">Send</button>
+<button (click)="sendButtonClick()">Send answers</button>
+<h4>{{sTableTitle}}</h4>
 <table>
     <thead>
         <td>Number</td>
         <td>Word</td>
     </thead>
     <tbody>
-        <tr *ngFor="let oWord of aVocab; index as i">
+        <tr *ngFor="let oWord of aVocab; index as i" class="table-row">
             <td>{{i + 1}}</td>
-            <td>{{oWord.sEn}}</td>
-            <td>
+            <td>{{oWord.russian}}</td>
+            <td><input type="text" (input)="checkAnswer($event, oWord)"/></td>
+            <!-- <td>
                 <button (click)="sendButtonClick(oWord)">Send word</button>
-            </td>
+            </td> -->
         </tr>
     </tbody>
 </table>

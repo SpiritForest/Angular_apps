@@ -12,6 +12,15 @@ server.use(bodyParser.urlencoded({
 }));
 
 server.get('/database', (req, res) => {
+  mongoose.connect(uri, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+  }, (oError) => {
+    if (oError) throw oError;
+    console.log('sucessfully connected to the mongoDB');
+
+  const word = req.body.word;
+
   res.send('Hello world');
 });
 

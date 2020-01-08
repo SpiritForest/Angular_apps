@@ -1,0 +1,12 @@
+table {
+  margin: 0 auto;
+}
+
+tbody > tr > td {
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+
+tr > td:first-child {
+  background-color: #ebf3f9;
+}
