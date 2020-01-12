@@ -6,11 +6,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CheckWordsComponent } from './check-words/check-words.component';
+import { LearnComponent } from './learn/learn.component';
+import { HeaderToolbarComponent } from './header-toolbar/header-toolbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CheckWordsComponent
+    CheckWordsComponent,
+    LearnComponent,
+    HeaderToolbarComponent
   ],
   imports: [
     HttpClientModule,

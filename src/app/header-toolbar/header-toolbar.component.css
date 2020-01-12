@@ -1,0 +1,9 @@
+.header-toolbar {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 100%;
+}

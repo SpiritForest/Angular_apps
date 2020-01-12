@@ -4,16 +4,15 @@ import { Observable } from 'rxjs';
 
     @Injectable()
     export class WordService {
+        
+        aWords: any;
 
         constructor(private http: HttpClient) {
 
         };
 
-        send(oWord) {
-            
-            if (oWord)
-
-            return this.http.post('/words', {
+        send(sPath: string, oWord: any): Observable<any> {
+            return this.http.put(sPath + `/${oWord.id}`, {
                english: oWord.english,
                russian: oWord.russian,
                transcription: oWord.transcription,
@@ -21,11 +20,24 @@ import { Observable } from 'rxjs';
                imagePath: oWord.imagePath,
                examples: oWord.examples,
                nextRevise: oWord.nextRevise,
-               nuberOfRevised: oWord.nuberOfRevise
-            })
-        }
+               nuberOfRevise: oWord.nuberOfRevise,
+               id: oWord.id
+            });
+        };
 
         getWords(sPath: string): Observable<any> {
             return this.http.get(sPath);
+        };
+
+        getRandomWords(): Observable<any> {
+            this.getWords("/words").subscribe(response => {
+                this.aWords = response;
+            });
+            return 
+        }
+
+        delete(oWord) {
+            const sId = oWord.id;
+            this.http.delete(`/words/${sId}`).subscribe(result => console.log("item deleted"))
         }
     }
