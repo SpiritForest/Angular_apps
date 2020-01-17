@@ -1,8 +1,10 @@
     import { HttpClient } from '@angular/common/http';
     import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+    import { Observable } from 'rxjs';
 
-    @Injectable()
+    @Injectable({
+        providedIn: 'root'
+    })
     export class WordService {
         
         aWords: any;
@@ -36,8 +38,15 @@ import { Observable } from 'rxjs';
             return 
         }
 
-        delete(oWord) {
+        delete(oWord): void {
             const sId = oWord.id;
-            this.http.delete(`/words/${sId}`).subscribe(result => console.log("item deleted"))
+            this.http.delete(`/words/${sId}`).subscribe()
+        }
+
+        markLearned(oWord): void {
+            const sId = oWord.id;
+            this.http.post('/learned', oWord).subscribe(() => {
+                this.delete(oWord);
+            });
         }
     }

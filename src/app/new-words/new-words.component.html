@@ -1,0 +1,23 @@
+<app-table-header [sTableTitle]="sTableTitle"></app-table-header>
+<table>
+  <thead>
+    <td>Number</td>
+    <td>Word</td>
+    <td>Input</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </thead>
+  <tbody>
+    <tr *ngFor="let oWord of aVocab; index as i">
+      <td>{{i + 1}}</td>
+      <td>{{oWord.russian}}</td>
+      <td>
+          <input type="text" (input)="checkAnswer($event.target.value, oWord)" (keyup)="onKeyup($event, oWord)">
+      </td>
+      <td>
+          <button (click)="onMarkLearned(oWord)">Learned</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

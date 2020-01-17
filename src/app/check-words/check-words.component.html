@@ -1,7 +1,7 @@
 <!-- <button (click)="onShowNew()">Show new words</button>
 <button (click)="onShowOnLearn()">Show on learn</button>
 <button (click)="onLearn()">Learn mode</button> -->
-    <h4>{{sTableTitle}}</h4>
+<h4>{{sTableTitle}}</h4>
 <table>
   <thead>
     <td>Number</td>
@@ -16,12 +16,12 @@
       <td>{{i + 1}}</td>
       <td>{{oWord.russian}}</td>
       <td *ngIf="learnMode">
-          <p>{{oWord.english}}</p>
+        <p>{{oWord.english}}</p>
       </td>
       <td *ngIf="hintWord === oWord && !learnMode"><input type="text" (input)="checkAnswer($event, oWord)"
-          [placeholder]="hintWord.english" (focus)="onFocus(oWord)"  /></td>
-      <td *ngIf="hintWord !== oWord && !learnMode"><input type="text" (input)="checkAnswer($event, oWord)" (focus)="onFocus(oWord)"
-           /></td>
+          [placeholder]="hintWord.english" (focus)="onFocus(oWord)" /></td>
+      <td *ngIf="hintWord !== oWord && !learnMode"><input type="text" (input)="checkAnswer($event, oWord)"
+          (focus)="onFocus(oWord)" /></td>
       <td>
         <button (click)="onDelete(oWord)" tabindex="-1">Delete</button>
       </td>
