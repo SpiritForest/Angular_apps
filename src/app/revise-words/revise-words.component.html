@@ -1,0 +1,17 @@
+<app-table-header [sTableTitle]="sTableTitle"></app-table-header>
+<table>
+  <thead>
+    <td>Number</td>
+    <td>Word</td>
+    <td>Input</td>
+  </thead>
+  <tbody>
+    <tr *ngFor="let oWord of aVocab; index as i">
+      <td>{{i + 1}}</td>
+      <td>{{oWord.russian}}</td>
+      <td>
+          <input type="text" (input)="checkAnswer($event.target.value, oWord)" (keyup)="onKeyup($event, oWord)" (focus)="onFocus(oWord)">
+      </td>
+    </tr>
+  </tbody>
+</table>

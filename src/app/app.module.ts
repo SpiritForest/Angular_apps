@@ -8,13 +8,19 @@ import { AppComponent } from './app.component';
 import { CheckWordsComponent } from './check-words/check-words.component';
 import { LearnComponent } from './learn/learn.component';
 import { HeaderToolbarComponent } from './header-toolbar/header-toolbar.component';
+import { ReviseWordsComponent } from './revise-words/revise-words.component';
+import { NewWordsComponent } from './new-words/new-words.component';
+import { TableHeaderComponent } from './table-header/table-header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CheckWordsComponent,
     LearnComponent,
-    HeaderToolbarComponent
+    HeaderToolbarComponent,
+    ReviseWordsComponent,
+    NewWordsComponent,
+    TableHeaderComponent
   ],
   imports: [
     HttpClientModule,
