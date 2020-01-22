@@ -7,9 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderToolbarComponent implements OnInit {
 
+  iWordsForLearn: number;
+
   constructor() { }
 
   ngOnInit() {
   }
-
 }

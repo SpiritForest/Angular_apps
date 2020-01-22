@@ -6,12 +6,16 @@
     <td>Input</td>
   </thead>
   <tbody>
-    <tr *ngFor="let oWord of aVocab; index as i">
+    <tr *ngFor="let oWord of aVocab; index as i" [class.focused]="oWord === focusedRow">
       <td>{{i + 1}}</td>
       <td>{{oWord.russian}}</td>
       <td>
-          <input type="text" (input)="checkAnswer($event.target.value, oWord)" (keyup)="onKeyup($event, oWord)" (focus)="onFocus(oWord)">
+          <input type="text" [attr.id]="i" (input)="checkAnswer($event.target, oWord, i)" (keyup)="onKeyup($event, oWord)" (focus)="onFocus(oWord)">
       </td>
     </tr>
   </tbody>
 </table>
+<div *ngIf="!aVocab.lengh">
+  <h3>There no words to revise!!!</h3>
+  <h1>Congratulations!!!!</h1>
+</div>

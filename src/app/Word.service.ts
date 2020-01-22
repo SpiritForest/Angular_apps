@@ -1,52 +1,51 @@
-    import { HttpClient } from '@angular/common/http';
-    import { Injectable } from '@angular/core';
-    import { Observable } from 'rxjs';
+    import {
+      HttpClient
+    } from '@angular/common/http';
+    import {
+      Injectable
+    } from '@angular/core';
+    import {
+      Observable
+    } from 'rxjs';
+    import {
+      oWord
+    } from './models/oWord';
 
     @Injectable({
-        providedIn: 'root'
+      providedIn: 'root'
     })
     export class WordService {
-        
-        aWords: any;
 
-        constructor(private http: HttpClient) {
+      aWords: any;
 
-        };
+      constructor(private http: HttpClient) {
 
-        send(sPath: string, oWord: any): Observable<any> {
-            return this.http.put(sPath + `/${oWord.id}`, {
-               english: oWord.english,
-               russian: oWord.russian,
-               transcription: oWord.transcription,
-               audioPath: oWord.audioPath,
-               imagePath: oWord.imagePath,
-               examples: oWord.examples,
-               nextRevise: oWord.nextRevise,
-               nuberOfRevise: oWord.nuberOfRevise,
-               id: oWord.id
-            });
-        };
+      };
 
-        getWords(sPath: string): Observable<any> {
-            return this.http.get(sPath);
-        };
+      send(sPath: string, oWord: oWord): Observable < any > {
+        return this.http.put(sPath + `/${oWord.id}`, oWord);
+      };
 
-        getRandomWords(): Observable<any> {
-            this.getWords("/words").subscribe(response => {
-                this.aWords = response;
-            });
-            return 
-        }
+      getWords(sPath: string): Observable < any > {
+        return this.http.get(sPath);
+      };
 
-        delete(oWord): void {
-            const sId = oWord.id;
-            this.http.delete(`/words/${sId}`).subscribe()
-        }
+      getRandomWords(): Observable < any > {
+        this.getWords("/words").subscribe(response => {
+          this.aWords = response;
+        });
+        return
+      }
 
-        markLearned(oWord): void {
-            const sId = oWord.id;
-            this.http.post('/learned', oWord).subscribe(() => {
-                this.delete(oWord);
-            });
-        }
+      delete(oWord: oWord): void {
+        this.http.delete(`/words/${oWord.id}`).subscribe()
+      }
+
+      markLearned(oWord: oWord): void {
+        this.http.post(`/learned/`, oWord).subscribe(
+          () => {
+            this.delete(oWord);
+          }
+        );
+      }
     }

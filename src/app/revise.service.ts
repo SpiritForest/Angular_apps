@@ -1,11 +1,12 @@
 import { Injectable } from '@angular/core';
+import { WordService } from './Word.service';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ReviseService {
 
-  constructor() { }
+  constructor(private wordService: WordService) { }
 
   getNextRevise(iRevised): any {
     const minute = 60 * 1000;
@@ -35,4 +36,22 @@ export class ReviseService {
     }
     return undefined;
   }
+
+  sendToRevise(oWord) {
+    let iRevised = oWord.nuberOfRevise || 1;
+
+    iRevised += 1;
+    oWord.nextRevise = this.getNextRevise(iRevised);
+
+    // if no returned date, send to learned
+    if (!oWord.nextRevise) {
+      this.wordService.markLearned(oWord);
+      return;
+    }
+
+    oWord.nuberOfRevise = iRevised;
+    this.wordService.send("/words", oWord).subscribe();
+
+  }
+
 }

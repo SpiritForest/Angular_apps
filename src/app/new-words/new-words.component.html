@@ -5,19 +5,15 @@
     <td>Word</td>
     <td>Input</td>
     <td></td>
-    <td></td>
-    <td></td>
   </thead>
   <tbody>
-    <tr *ngFor="let oWord of aVocab; index as i">
+    <tr *ngFor="let oWord of aVocab; index as i" [class.focused]="oWord === focusedRow">
       <td>{{i + 1}}</td>
       <td>{{oWord.russian}}</td>
       <td>
-          <input type="text" (input)="checkAnswer($event.target.value, oWord)" (keyup)="onKeyup($event, oWord)">
+          <input type="text" [attr.id]="i" (input)="checkAnswer($event.target, oWord, i)" (keyup)="onKeyup($event, oWord)" (focus)="onFocus(oWord)">
       </td>
-      <td>
-          <button (click)="onMarkLearned(oWord)">Learned</button>
-      </td>
+      <td><button (click)="onLearned($event, oWord)" tabindex="-1">Learned</button></td>
     </tr>
   </tbody>
 </table>
