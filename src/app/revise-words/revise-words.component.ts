@@ -33,6 +33,7 @@ export class ReviseWordsComponent implements OnInit {
       .subscribe(aResult => {
         this.aVocab = aResult.filter(element => iCurrentDate > element.nextRevise && element.nextRevise);
         this.setTableTitle();
+        this.tableService.setUncheckedWords(this.aVocab.length);
       });
   }
 
@@ -41,7 +42,7 @@ export class ReviseWordsComponent implements OnInit {
   }
 
   setTableTitle(): void {
-    this.sTableTitle = `Words (${this.aVocab.length})`;
+    this.sTableTitle = `Words (${this.tableService.getUncheckedWords()})`;
   }
 
   onKeyup(oEvent, oWord: oWord): void {

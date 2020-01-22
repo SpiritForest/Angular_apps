@@ -15,6 +15,8 @@ export class NewWordsComponent implements OnInit {
   aVocab;
   focusedRow;
   sTableTitle: string;
+  iUnlearnedTotal: number;
+  iQuantityWordsInTheTable: number = 20;
   
   constructor(
     private wordService: WordService,
@@ -31,18 +33,20 @@ export class NewWordsComponent implements OnInit {
     this.wordService.getWords('/words')
       .subscribe(aResult => {
         aVocab = aResult.filter(element => !element.nextRevise);
+        this.iUnlearnedTotal = aVocab.length;
         this.getRandomWords(aVocab);
       });
   }
 
   getRandomWords(aVocab): void {
-    const random = 20;
     const aRandomIndices = [];
     let iRandom: number;
     const iVocabLength = aVocab.length;
 
+    this.tableService.setUncheckedWords(this.iQuantityWordsInTheTable);
+
     while (true) {
-      if (aRandomIndices.length === random) {
+      if (aRandomIndices.length === this.iQuantityWordsInTheTable) {
         break;
       }
       iRandom = Math.round(Math.random() * iVocabLength);
@@ -51,26 +55,34 @@ export class NewWordsComponent implements OnInit {
       }
     }
     this.aVocab = aRandomIndices.map(element => aVocab[element]);
+    this.setTableTitle();
   }
 
   checkAnswer(element, oWord: oWord, index) {
     this.tableService.checkAnswer(element, oWord, index);
   }
-
+  
   deleteWordFromTable(oWord: oWord) {
     const index = this.aVocab.indexOf(oWord);
     this.aVocab.splice(index, 1);
     this.setTableTitle();
   }
-
+  
   setTableTitle(): void {
-    this.sTableTitle = `Words (${this.aVocab.length})`;
-  }
-
-  onKeyup(oEvent, oWord: oWord): void {
-    this.tableService.onKeyup(oEvent, oWord);
+    let iUncheckedWords = this.tableService.getUncheckedWords();
+    this.iUnlearnedTotal -= this.iQuantityWordsInTheTable - iUncheckedWords;  
+    this.sTableTitle = `Words (${this.tableService.getUncheckedWords()})`;
+    if (iUncheckedWords === 0) {
+      // update a table (get new words)
+      this.getNewWords();
+    }
   }
   
+  onKeyup(oEvent, oWord: oWord): void {
+    this.tableService.onKeyup(oEvent, oWord);
+    this.setTableTitle();
+  }
+
   onFocus(oWord: oWord): void {
     this.focusedRow = oWord;
   }

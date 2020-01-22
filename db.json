@@ -700,8 +700,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/41185-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/535838.png",
       "examples": "{\"source_id\": 1, \"context_url\": \"null\", \"context_title\": \"via LinguaLeo Browser Extension\"}",
-      "nextRevise": 1579382000468,
-      "nuberOfRevise": 2,
+      "nextRevise": 1579750190744,
+      "nuberOfRevise": 3,
       "id": 63
     },
     {
@@ -1063,8 +1063,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/34528-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/666474.png",
       "examples": "The revised AppComponent template looks like this:",
-      "nextRevise": 1579440849048,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890593690,
+      "nuberOfRevise": 5,
       "id": 102
     },
     {
@@ -1074,8 +1074,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/38556-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/1144790.png",
       "examples": "Sprinkle some CSS classes for styling (you'll add the CSS styles shortly).",
-      "nextRevise": 1579379692114,
-      "nuberOfRevise": 2,
+      "nextRevise": 1579750198065,
+      "nuberOfRevise": 3,
       "id": 103
     },
     {
@@ -1129,8 +1129,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/39804-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/771365.png",
       "examples": "You're so supersonic",
-      "nextRevise": 1579527252848,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580236202089,
+      "nuberOfRevise": 6,
       "id": 108
     },
     {
@@ -1173,8 +1173,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/31065-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/652059.png",
       "examples": "The HeroService is now ready to plug into the HeroesComponent.",
-      "nextRevise": 1579527255296,
-      "nuberOfRevise": 5,
+      "nextRevise": null,
+      "nuberOfRevise": null,
       "id": 112
     },
     {
@@ -1239,8 +1239,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/TUFMRk9STUVE.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/90904.png",
       "examples": "\"SyntaxError: Malformed arrow function parameter list",
-      "nextRevise": 1579440858600,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890607971,
+      "nuberOfRevise": 5,
       "id": 118
     },
     {
@@ -1261,8 +1261,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/41182-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/1131358.png",
       "examples": "Thus, the role of the object a (a prototype) Foo.prototype plays:",
-      "nextRevise": 1579440861032,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890609904,
+      "nuberOfRevise": 5,
       "id": 120
     },
     {
@@ -1283,8 +1283,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/4816-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png",
       "examples": "This policy applies to all EPAM employees and third-party contractors (hereafter “employees”) who incur business expenses on behalf of the Company, effective December 1, 2018.",
-      "nextRevise": 1579440863681,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890614889,
+      "nuberOfRevise": 5,
       "id": 122
     },
     {
@@ -1305,8 +1305,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/9177-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/756505.png",
       "examples": "A card is a design pattern that displays the most concise pieces of information in a",
-      "nextRevise": 1579363535300,
-      "nuberOfRevise": 2,
+      "nextRevise": null,
+      "nuberOfRevise": null,
       "id": 124
     },
     {
@@ -1459,8 +1459,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/14732-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/788407.png",
       "examples": "So, objects hide all their underpinnings and only let you manipulate the essence of their data in a simplified way.",
-      "nextRevise": 1579440876335,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890626401,
+      "nuberOfRevise": 5,
       "id": 140
     },
     {
@@ -1470,8 +1470,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/4132-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png",
       "examples": "I got a backlog of New York scumbags",
-      "nextRevise": 1579527279929,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580236233977,
+      "nuberOfRevise": 6,
       "id": 141
     },
     {
@@ -1668,8 +1668,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/U1VCT1BUSU1BTA==.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/1795855.png",
       "examples": "The journey towards better style, as Olivier Tassinari puts it, began with inline styles, but their suboptimal performance and limited feature support (think pseudo selectors or media queries), ultimately made the team transition to JSS.",
-      "nextRevise": 1579440884473,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890638419,
+      "nuberOfRevise": 5,
       "id": 160
     },
     {
@@ -1712,8 +1712,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/44660-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png",
       "examples": "This brought the Moscow warehouse in Moscow just for a couple of days, courier.",
-      "nextRevise": 1579440888665,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890643506,
+      "nuberOfRevise": 5,
       "id": 164
     },
     {
@@ -1778,8 +1778,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/34734-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/902.png",
       "examples": "12V Ripple Chart",
-      "nextRevise": 1579440891433,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890646792,
+      "nuberOfRevise": 5,
       "id": 171
     },
     {
@@ -1822,8 +1822,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/UkVDVElGSUVS.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/1068263.png",
       "examples": "null",
-      "nextRevise": 1579440895816,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890650753,
+      "nuberOfRevise": 5,
       "id": 175
     },
     {
@@ -1855,8 +1855,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/30816-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png",
       "examples": "the pitfalls",
-      "nextRevise": 1579381910044,
-      "nuberOfRevise": 2,
+      "nextRevise": 1579750360137,
+      "nuberOfRevise": 3,
       "id": 178
     },
     {
@@ -1866,8 +1866,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/50456-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png",
       "examples": "npx on the first line is not a typo — it’s a package runner tool that comes with npm 5.2 .",
-      "nextRevise": 1579440898880,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890668969,
+      "nuberOfRevise": 5,
       "id": 179
     },
     {
@@ -1899,8 +1899,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/QVNTSUdORUVT.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/3387892.png",
       "examples": "",
-      "nextRevise": 1579440901994,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890678417,
+      "nuberOfRevise": 5,
       "id": 182
     },
     {
@@ -1910,8 +1910,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/14895-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png",
       "examples": "null",
-      "nextRevise": 1579440904672,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890682329,
+      "nuberOfRevise": 5,
       "id": 183
     },
     {
@@ -1976,8 +1976,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/459095-631152000.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png",
       "examples": "This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.",
-      "nextRevise": 1579440910290,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890686956,
+      "nuberOfRevise": 5,
       "id": 189
     },
     {
@@ -1998,8 +1998,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/180530-631152008.mp3",
       "imagePath": "",
       "examples": "Image thumbnails",
-      "nextRevise": 1579440917354,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890691666,
+      "nuberOfRevise": 5,
       "id": 191
     },
     {
@@ -2009,8 +2009,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/210743-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/422489.png",
       "examples": "Shawty look good in the moonlight",
-      "nextRevise": 1579527320361,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580236296347,
+      "nuberOfRevise": 6,
       "id": 192
     },
     {
@@ -2042,8 +2042,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/5924-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png",
       "examples": "Bower and bower.json",
-      "nextRevise": 1579440924640,
-      "nuberOfRevise": 4,
+      "nextRevise": null,
+      "nuberOfRevise": null,
       "id": 195
     },
     {
@@ -2075,8 +2075,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/14063-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png",
       "examples": "text-overflow: clip | ellipsis",
-      "nextRevise": 1579440928848,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890764018,
+      "nuberOfRevise": 5,
       "id": 199
     },
     {
@@ -2086,8 +2086,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/15468-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png",
       "examples": "Familiarize yourself with the core concepts of the JSON (JavaScript Object Notation) data format.",
-      "nextRevise": 1579440934016,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890768698,
+      "nuberOfRevise": 5,
       "id": 200
     },
     {
@@ -2097,8 +2097,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/16777-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/2074371.png",
       "examples": "null",
-      "nextRevise": 1579440935551,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890771444,
+      "nuberOfRevise": 5,
       "id": 201
     },
     {
@@ -2119,8 +2119,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/34754-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/51952.png",
       "examples": "Roundtable Rival - Lindsey Stirling",
-      "nextRevise": 1579440937776,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890773619,
+      "nuberOfRevise": 5,
       "id": 203
     },
     {
@@ -2174,8 +2174,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/249357-631152008.mp3",
       "imagePath": "",
       "examples": "Creates a batch object for batching individual requests.",
-      "nextRevise": 1579440941081,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890776826,
+      "nuberOfRevise": 5,
       "id": 208
     },
     {
@@ -2185,8 +2185,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/U0NBVE1BTg==.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/1961757.png",
       "examples": "Scatman (Ski Ba Bop Ba Dop Bop)",
-      "nextRevise": 1579440944561,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890780699,
+      "nuberOfRevise": 5,
       "id": 209
     },
     {
@@ -2196,8 +2196,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/Uk9VTkRUQUJMRQ==.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/640684.png",
       "examples": "Roundtable Rival - Lindsey Stirling",
-      "nextRevise": 1579440947878,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890784858,
+      "nuberOfRevise": 5,
       "id": 210
     },
     {
@@ -2251,8 +2251,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/19637-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png",
       "examples": "The presentation markup hierarchy needs to be .reveal > .slides > section where the section represents one slide and can be repeated indefinitely.",
-      "nextRevise": 1579527353161,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580236389738,
+      "nuberOfRevise": 6,
       "id": 215
     },
     {
@@ -2372,8 +2372,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/22336-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/56318.png",
       "examples": "An old ivy vine, going bad at the roots, climbed half way up the wall",
-      "nextRevise": 1579527356608,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580236392004,
+      "nuberOfRevise": 6,
       "id": 226
     },
     {
@@ -2383,8 +2383,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/25119-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/113808.png",
       "examples": "\"Some day I will paint a masterpiece, and we shall all go away",
-      "nextRevise": 1579527362919,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580236397988,
+      "nuberOfRevise": 6,
       "id": 227
     },
     {
@@ -2405,8 +2405,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/44291-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/385444.png",
       "examples": "An old ivy vine, going bad at the roots, climbed half way up the wall",
-      "nextRevise": 1579440964823,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579890800177,
+      "nuberOfRevise": 5,
       "id": 229
     },
     {
@@ -2438,8 +2438,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/2456-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/884960.png",
       "examples": "women murdering their bastard children, alas",
-      "nextRevise": 1579527366681,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580236401913,
+      "nuberOfRevise": 6,
       "id": 232
     },
     {
@@ -5199,8 +5199,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/25497-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png",
       "examples": "My name is Arielle (before you say like the little mermaid but it's pronounced differently), but you can all me Ari.",
-      "nextRevise": 1579382861376,
-      "nuberOfRevise": 2,
+      "nextRevise": 1579750413922,
+      "nuberOfRevise": 3,
       "id": 490
     },
     {
@@ -6332,8 +6332,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/33414-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/85392.png",
       "examples": "the South American type that women rave about and men watch uneasily when they are raving",
-      "nextRevise": 1579380222954,
-      "nuberOfRevise": 2,
+      "nextRevise": null,
+      "nuberOfRevise": null,
       "id": 593
     },
     {
@@ -6376,8 +6376,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/13447-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/3244507.png",
       "examples": "It hasn't rained for half a year, as a Ответ , people are suffering from a drought in that region.",
-      "nextRevise": 1579380231498,
-      "nuberOfRevise": 2,
+      "nextRevise": 1579752085968,
+      "nuberOfRevise": 3,
       "id": 597
     },
     {
@@ -6486,8 +6486,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/16512-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/193342.png",
       "examples": "Brand Name:OTAIItem Type:LED BulbsCertification:CE,RoHS,CCCLed Bulb Type:Bubble Ball BulbShape:IrregularVoltage:3-3.6VPower Tolerance:1%Average Life (hrs):50000HOccasion:living roomLuminous Flux:1000 - 1999 LumensNumber of LED Chip:1 pcsColor Temperature:",
-      "nextRevise": 1579381713964,
-      "nuberOfRevise": 2,
+      "nextRevise": 1579750429057,
+      "nuberOfRevise": 3,
       "id": 607
     },
     {
@@ -8224,8 +8224,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/41781-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/740894.png",
       "examples": "He owned a jacket, a book that he could trade for another, and a flock of sheep",
-      "nextRevise": 1579380550721,
-      "nuberOfRevise": 2,
+      "nextRevise": 1579750451122,
+      "nuberOfRevise": 3,
       "id": 766
     },
     {
@@ -8851,8 +8851,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/3960-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/194113.png",
       "examples": "what was destroyed for the construction of the buildings - reusing, recycling these materials - and it gives us information also on the availability of materials, which changed during time and space",
-      "nextRevise": 1579379444492,
-      "nuberOfRevise": 2,
+      "nextRevise": 1579751154671,
+      "nuberOfRevise": 3,
       "id": 823
     },
     {
@@ -9016,8 +9016,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/27729-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/22810.png",
       "examples": "Here's the final word on nutrition and health",
-      "nextRevise": 1579380238649,
-      "nuberOfRevise": 2,
+      "nextRevise": 1579750529051,
+      "nuberOfRevise": 3,
       "id": 838
     },
     {
@@ -10171,8 +10171,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/17452-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/3596574.png",
       "examples": "E: The gang.",
-      "nextRevise": 1579381399973,
-      "nuberOfRevise": 2,
+      "nextRevise": 1579751316945,
+      "nuberOfRevise": 3,
       "id": 943
     },
     {
@@ -11392,8 +11392,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/36908-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/565338.png",
       "examples": "Shoo, fly",
-      "nextRevise": 1579440968087,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579891314155,
+      "nuberOfRevise": 5,
       "id": 1054
     },
     {
@@ -11414,8 +11414,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/43196-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/268212.png",
       "examples": "And this one's a holographic unicorn",
-      "nextRevise": 1579440972568,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579892263346,
+      "nuberOfRevise": 5,
       "id": 1056
     },
     {
@@ -11480,8 +11480,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/123685-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png",
       "examples": "Why is this ground all squishy",
-      "nextRevise": 1579440976553,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579892490276,
+      "nuberOfRevise": 5,
       "id": 1062
     },
     {
@@ -11513,8 +11513,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/275276-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/86859.png",
       "examples": "And you're a topnotch adventurer",
-      "nextRevise": 1579440980576,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579892496043,
+      "nuberOfRevise": 5,
       "id": 1065
     },
     {
@@ -11535,8 +11535,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/1695975-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/230945.png",
       "examples": "You're gonna get it, wall of flesh",
-      "nextRevise": 1579440983456,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579892328009,
+      "nuberOfRevise": 5,
       "id": 1067
     },
     {
@@ -11832,8 +11832,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/5666-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/79295.png",
       "examples": "bold, strong, sleeves rolled up",
-      "nextRevise": 1579440985873,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579892498986,
+      "nuberOfRevise": 5,
       "id": 1094
     },
     {
@@ -12151,8 +12151,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/42356-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/3245231.png",
       "examples": "I have tulips in my garden",
-      "nextRevise": 1579440988360,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579891790026,
+      "nuberOfRevise": 5,
       "id": 1123
     },
     {
@@ -12195,8 +12195,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/UE9QUEU=.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/3695946.png",
       "examples": "",
-      "nextRevise": 1579440990394,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579892501602,
+      "nuberOfRevise": 5,
       "id": 1127
     },
     {
@@ -12283,8 +12283,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/48526-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/268824.png",
       "examples": "Alright, let’s take a look at our “language takeaway” and look at some of these great words",
-      "nextRevise": 1579440995872,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579892507960,
+      "nuberOfRevise": 5,
       "id": 1135
     },
     {
@@ -12360,8 +12360,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/RklMTCBNRSBJTg==.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/710154.png",
       "examples": "",
-      "nextRevise": 1579440999408,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579892512314,
+      "nuberOfRevise": 5,
       "id": 1142
     },
     {
@@ -12404,8 +12404,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/4091-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/2346388.png",
       "examples": "Back at me?",
-      "nextRevise": 1579441001023,
-      "nuberOfRevise": 4,
+      "nextRevise": 1579892514058,
+      "nuberOfRevise": 5,
       "id": 1146
     },
     {
@@ -12866,8 +12866,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/28046-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/3359394.png",
       "examples": "Do what you love, and do it often.",
-      "nextRevise": 1579381225142,
-      "nuberOfRevise": 2,
+      "nextRevise": 1579752117834,
+      "nuberOfRevise": 3,
       "id": 1193
     },
     {
@@ -13058,25 +13058,14 @@
       "id": 1210
     },
     {
-      "english": "thing",
-      "russian": "вещь",
-      "transcription": "[θɪŋ]",
-      "audioPath": "https://audiocdn.lingualeo.com/v2/3/41002-631152008.mp3",
-      "imagePath": "",
-      "examples": "I'll bet you could walk all day in shoes like that and not feel a thing.",
-      "nextRevise": null,
-      "nuberOfRevise": null,
-      "id": 1211
-    },
-    {
       "english": "think",
       "russian": "думать",
       "transcription": "[θɪŋk]",
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/41009-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/2871147.png",
       "examples": "The University of Pennsylvania, a couple of years ago, did a study, and discovered that men have the ability to think about absolutely nothing and still breathe",
-      "nextRevise": 1579379695714,
-      "nuberOfRevise": 2,
+      "nextRevise": 1579752122986,
+      "nuberOfRevise": 3,
       "id": 1212
     },
     {
@@ -17332,8 +17321,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/2246-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/3232759.png",
       "examples": "Permanent: Ralph became a doctor at age twenty-five.",
-      "nextRevise": null,
-      "nuberOfRevise": null,
+      "nextRevise": 1579724092104,
+      "nuberOfRevise": 2,
       "id": 1599
     },
     {
@@ -20170,8 +20159,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/25012-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/3237135.png",
       "examples": "She makes him toe the mark",
-      "nextRevise": 1579380350418,
-      "nuberOfRevise": 2,
+      "nextRevise": 1579752126466,
+      "nuberOfRevise": 3,
       "id": 1859
     },
     {
@@ -20247,8 +20236,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/7512-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/913453.png",
       "examples": "And exactly the same as humans would do, they spontaneously recovered to a certain extent, exactly the same as after a stroke",
-      "nextRevise": null,
-      "nuberOfRevise": null,
+      "nextRevise": 1579722524755,
+      "nuberOfRevise": 2,
       "id": 1866
     },
     {
@@ -20522,8 +20511,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/27171-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/3250355.png",
       "examples": "The adult brain has stem cells, but they're very rare and they're located in deep and small niches in the depths of the brain",
-      "nextRevise": null,
-      "nuberOfRevise": null,
+      "nextRevise": 1579722562177,
+      "nuberOfRevise": 2,
       "id": 1893
     },
     {
@@ -20676,8 +20665,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/1357119-631152000.mp3",
       "imagePath": "",
       "examples": "in a lesioned brain",
-      "nextRevise": 1579411239889,
-      "nuberOfRevise": 3,
+      "nextRevise": 1579806130586,
+      "nuberOfRevise": 4,
       "id": 1907
     },
     {
@@ -21699,8 +21688,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/58797-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/1030127.png",
       "examples": "Then, reaching under his pillow he pulled out some crumpled up bills.",
-      "nextRevise": null,
-      "nuberOfRevise": null,
+      "nextRevise": 1579722559658,
+      "nuberOfRevise": 2,
       "id": 2000
     },
     {
@@ -21919,8 +21908,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/34502-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/11182.png",
       "examples": "The company that he co-founded is now known as “The Walt Disney Company” and has annual revenues of approximately $35 Billion (US)",
-      "nextRevise": 1579527404824,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238134491,
+      "nuberOfRevise": 6,
       "id": 2020
     },
     {
@@ -22733,8 +22722,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/7208-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/3220589.png",
       "examples": "“I passed two ducks swimming down Market Street,” the head cashier joked",
-      "nextRevise": 1579527408256,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238138484,
+      "nuberOfRevise": 6,
       "id": 2095
     },
     {
@@ -22755,8 +22744,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/17449-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png",
       "examples": "Her skin ran the gamut from a translucent white to a deep rose, depending on whether she was angry, tired, or excited",
-      "nextRevise": 1579527411616,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238141434,
+      "nuberOfRevise": 6,
       "id": 2097
     },
     {
@@ -22810,8 +22799,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/26391-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/29038.png",
       "examples": "She was in her mid-twenties, with a lively, intelligent face, a full, sensuous mouth, sparkling eyes that could change from a soft moss green to a dark jade in moments, and a trim, athletic figure",
-      "nextRevise": null,
-      "nuberOfRevise": null,
+      "nextRevise": 1579723511069,
+      "nuberOfRevise": 2,
       "id": 2102
     },
     {
@@ -23140,8 +23129,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/19959-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png",
       "examples": "Hoof sounds, our breathing and the wind seemed to be the only noises in the neighborhood until we flushed a deer a bit later and heard the diminishing crashes of its retreat for some time afterward.",
-      "nextRevise": 1579381266191,
-      "nuberOfRevise": 2,
+      "nextRevise": 1579752143713,
+      "nuberOfRevise": 3,
       "id": 2132
     },
     {
@@ -23283,8 +23272,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/33069-631152008.mp3",
       "imagePath": "",
       "examples": "In a professional context you might say, \"I wish I had quoted a better price",
-      "nextRevise": null,
-      "nuberOfRevise": null,
+      "nextRevise": 1579723286246,
+      "nuberOfRevise": 2,
       "id": 2145
     },
     {
@@ -23371,8 +23360,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/6651-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/689701.png",
       "examples": "\" he said, with an evil cackle.",
-      "nextRevise": 1579379790506,
-      "nuberOfRevise": 2,
+      "nextRevise": null,
+      "nuberOfRevise": null,
       "id": 2153
     },
     {
@@ -24075,8 +24064,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/3136-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/2008295.png",
       "examples": "Emotions The most common emotion experienced in dreams is anxiety",
-      "nextRevise": 1579527419865,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238155002,
+      "nuberOfRevise": 6,
       "id": 2217
     },
     {
@@ -24119,8 +24108,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/34078-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/3248488.png",
       "examples": "And there's no remedy for memory of faces",
-      "nextRevise": 1579527422968,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238157129,
+      "nuberOfRevise": 6,
       "id": 2221
     },
     {
@@ -24339,8 +24328,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/27733-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png",
       "examples": "If we wanted a nutshell definition of the role of the university in American society, we might say its function is to seek  knowledge and to spread  knowledge.”",
-      "nextRevise": 1579527426368,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238160802,
+      "nuberOfRevise": 6,
       "id": 2243
     },
     {
@@ -24746,8 +24735,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/135656-631152000.mp3",
       "imagePath": "",
       "examples": "The lights are shining, and Dale Winton is joshing with Tiffany from EastEnders, and every so often the audience gives an excited whoop",
-      "nextRevise": 1579527429240,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238164531,
+      "nuberOfRevise": 6,
       "id": 2280
     },
     {
@@ -25043,8 +25032,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/24464-631152008.mp3",
       "imagePath": "",
       "examples": "...Depp publicly showed signs that he hated his new position as a heartthrob, and so he unsuccessfully tried to exit his lucrative contract.",
-      "nextRevise": 1579527432636,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238167617,
+      "nuberOfRevise": 6,
       "id": 2307
     },
     {
@@ -25197,8 +25186,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/4397-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png",
       "examples": "I've been lucky enough to have Denny as my barber for the last eight years",
-      "nextRevise": 1579527435352,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238170939,
+      "nuberOfRevise": 6,
       "id": 2321
     },
     {
@@ -25208,8 +25197,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/4925-631152008.mp3",
       "imagePath": "",
       "examples": "rather more rational than myself, and more benevolent than my",
-      "nextRevise": 1579527439472,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238174963,
+      "nuberOfRevise": 6,
       "id": 2322
     },
     {
@@ -25362,8 +25351,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/26713-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/78462.png",
       "examples": "The detective theorized (over the agonized objections of Andy’s lawyer) that the murderer had wrapped the towels around the muzzle of the murder-weapon to muffle the sound of the gunshots",
-      "nextRevise": 1579527442288,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238177443,
+      "nuberOfRevise": 6,
       "id": 2336
     },
     {
@@ -25604,8 +25593,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/7384-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/22945.png",
       "examples": "A bear will trash another bear’s cave, steal its food, and kill its young.",
-      "nextRevise": 1579527445040,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238179369,
+      "nuberOfRevise": 6,
       "id": 2358
     },
     {
@@ -25626,8 +25615,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/7649-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/3240324.png",
       "examples": "He took a shower, shaved, and dressed for high authority in a charcoal gray suit with a faint pinstripe, a white shirt, and a black tie with small red dots.",
-      "nextRevise": 1579527450743,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238182650,
+      "nuberOfRevise": 6,
       "id": 2360
     },
     {
@@ -25670,8 +25659,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/9132-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/296643.png",
       "examples": "He may conceal a king in his hand",
-      "nextRevise": 1579527453704,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238187145,
+      "nuberOfRevise": 6,
       "id": 2364
     },
     {
@@ -25956,8 +25945,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/16561-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/2105351.png",
       "examples": "holidays the Invisibility Cloak stayed folded at the bottom of his trunk",
-      "nextRevise": 1579527456007,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238189716,
+      "nuberOfRevise": 6,
       "id": 2390
     },
     {
@@ -26528,8 +26517,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/39064-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/560370.png",
       "examples": "When he returned she had gone, leaving a thank-you note wrapped in a sheer black nylon stocking.",
-      "nextRevise": 1579380686034,
-      "nuberOfRevise": 2,
+      "nextRevise": 1579752193129,
+      "nuberOfRevise": 3,
       "id": 2443
     },
     {
@@ -26803,8 +26792,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/54132-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png",
       "examples": "“Thank you,” he said gruffly.",
-      "nextRevise": null,
-      "nuberOfRevise": null,
+      "nextRevise": 1579723523039,
+      "nuberOfRevise": 2,
       "id": 2468
     },
     {
@@ -27661,8 +27650,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/VE9SVFVS.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/650230.png",
       "examples": "",
-      "nextRevise": null,
-      "nuberOfRevise": null,
+      "nextRevise": 1579722647053,
+      "nuberOfRevise": 2,
       "id": 2546
     },
     {
@@ -29597,8 +29586,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/28360-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/31260.png",
       "examples": "hedge, was the famous King orchard, the history of which was woven into our earliest recollections.",
-      "nextRevise": 1579379383219,
-      "nuberOfRevise": 2,
+      "nextRevise": 1579752199682,
+      "nuberOfRevise": 3,
       "id": 2722
     },
     {
@@ -30037,8 +30026,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/29773-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png",
       "examples": "cellars below, appeared to have a separate peal",
-      "nextRevise": null,
-      "nuberOfRevise": null,
+      "nextRevise": 1579723504983,
+      "nuberOfRevise": 2,
       "id": 2762
     },
     {
@@ -31203,8 +31192,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/67720-631152008.mp3",
       "imagePath": "",
       "examples": "\"Doctor,\" asks Mike, \"Do you think it's the light that's attracting them",
-      "nextRevise": 1579379390627,
-      "nuberOfRevise": 2,
+      "nextRevise": null,
+      "nuberOfRevise": null,
       "id": 2870
     },
     {
@@ -31368,8 +31357,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/2946-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/47917.png",
       "examples": "\"I was doing aerobics on the balcony of my 26th floor apartment when I twisted my ankle and slipped over the edge.",
-      "nextRevise": 1579527459447,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238211523,
+      "nuberOfRevise": 6,
       "id": 2885
     },
     {
@@ -31390,8 +31379,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/3156-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/3179770.png",
       "examples": "To become an upstander means instead of bystander apathy,",
-      "nextRevise": 1579527461984,
-      "nuberOfRevise": 5,
+      "nextRevise": null,
+      "nuberOfRevise": null,
       "id": 2887
     },
     {
@@ -31401,8 +31390,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/3472-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/3234295.png",
       "examples": "arm n",
-      "nextRevise": 1579527464319,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238662277,
+      "nuberOfRevise": 6,
       "id": 2888
     },
     {
@@ -31412,8 +31401,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/3607-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/697260.png",
       "examples": "An Arab student sends an e-mail to his dad, saying: Dear Dad Berlin is wonderful, people are nice and I really like it here, but Dad, I am a bit ashamed to arrive at my college with my pure-gold Ferrari 599GTB when all my teachers and many fellow students",
-      "nextRevise": 1579527467719,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238718877,
+      "nuberOfRevise": 6,
       "id": 2889
     },
     {
@@ -31423,8 +31412,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/4116-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/31876.png",
       "examples": "The sweat started out on Winston's backbone",
-      "nextRevise": 1579527470688,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238723620,
+      "nuberOfRevise": 6,
       "id": 2890
     },
     {
@@ -31434,8 +31423,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/5435-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/56342.png",
       "examples": "Either the memory of past bliss is the anguish of to-day, or the agonies which are, have their origin in the ecstasies which might have been",
-      "nextRevise": 1579527472783,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238725911,
+      "nuberOfRevise": 6,
       "id": 2891
     },
     {
@@ -31445,8 +31434,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/5630-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/3179793.png",
       "examples": "a part of the body",
-      "nextRevise": 1579527475039,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238728149,
+      "nuberOfRevise": 6,
       "id": 2892
     },
     {
@@ -31456,8 +31445,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/5725-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/3264060.png",
       "examples": "A bone in his back was broken.",
-      "nextRevise": 1579527476847,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238924535,
+      "nuberOfRevise": 6,
       "id": 2893
     },
     {
@@ -31467,8 +31456,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/5826-631152008.mp3",
       "imagePath": "",
       "examples": "Temporary: She got bored with the movie",
-      "nextRevise": 1579527480321,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580239019252,
+      "nuberOfRevise": 6,
       "id": 2894
     },
     {
@@ -31489,8 +31478,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/7725-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/1251852.png",
       "examples": "And on that cheek, and o'er that brow,",
-      "nextRevise": 1579527482113,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580239029543,
+      "nuberOfRevise": 6,
       "id": 2896
     },
     {
@@ -31511,8 +31500,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/7854-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/3234366.png",
       "examples": "Dorothy leaned her chin upon her hand and gazed thoughtfully at the",
-      "nextRevise": 1579527484943,
-      "nuberOfRevise": 5,
+      "nextRevise": 1580238741343,
+      "nuberOfRevise": 6,
       "id": 2898
     },
     {
@@ -31808,8 +31797,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/21895-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/2133465.png",
       "examples": "Choose content of interest, that you want to listen to and read.",
-      "nextRevise": 1579380410712,
-      "nuberOfRevise": 2,
+      "nextRevise": 1579753037031,
+      "nuberOfRevise": 3,
       "id": 2927
     },
     {
@@ -32292,8 +32281,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/41131-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/140269.png",
       "examples": "If I go down here in my throat,",
-      "nextRevise": 1579382867131,
-      "nuberOfRevise": 2,
+      "nextRevise": 1579753043527,
+      "nuberOfRevise": 3,
       "id": 2972
     },
     {
@@ -32754,8 +32743,8 @@
       "audioPath": "https://audiocdn.lingualeo.com/v2/3/39643-631152008.mp3",
       "imagePath": "https://contentcdn.lingualeo.com/uploads/picture/290307.png",
       "examples": "and here is your keycard to the presidential suite.",
-      "nextRevise": null,
-      "nuberOfRevise": null,
+      "nextRevise": 1579723501839,
+      "nuberOfRevise": 2,
       "id": 3015
     },
     {
@@ -32902,6 +32891,17 @@
       "nextRevise": 1579382833378,
       "nuberOfRevise": 2,
       "id": 1744
+    },
+    {
+      "english": "thing",
+      "russian": "вещь",
+      "transcription": "[θɪŋ]",
+      "audioPath": "https://audiocdn.lingualeo.com/v2/3/41002-631152008.mp3",
+      "imagePath": "",
+      "examples": "I'll bet you could walk all day in shoes like that and not feel a thing.",
+      "nextRevise": 1579724110356,
+      "nuberOfRevise": 2,
+      "id": 1211
     }
   ]
 }
