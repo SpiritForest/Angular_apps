@@ -12,7 +12,7 @@ import { WordtableService } from '../utils/wordtable.service';
 })
 export class ReviseWordsComponent implements OnInit {
 
-  aVocab;
+  aVocab = [];
   focusedRow;
   sTableTitle: string;
 
@@ -40,22 +40,12 @@ export class ReviseWordsComponent implements OnInit {
     this.tableService.checkAnswer(element, oWord, index);
   }
 
-  // deleteWordFromTable(oWord: oWord) {
-  //   const index = this.aVocab.indexOf(oWord);
-  //   this.aVocab.splice(index, 1);
-  //   this.setTableTitle();
-  // }
-
   setTableTitle(): void {
     this.sTableTitle = `Words (${this.aVocab.length})`;
   }
 
   onKeyup(oEvent, oWord: oWord): void {
     this.tableService.onKeyup(oEvent, oWord);
-  }
-
-  showHint(oEvent, oWord: oWord): void {
-    this.tableService.showHint(oEvent, oWord);
   }
 
   onFocus(oWord: oWord): void {

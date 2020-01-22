@@ -70,11 +70,7 @@ export class NewWordsComponent implements OnInit {
   onKeyup(oEvent, oWord: oWord): void {
     this.tableService.onKeyup(oEvent, oWord);
   }
-
-  showHint(oEvent, oWord: oWord): void {
-    this.tableService.showHint(oEvent, oWord);
-  }
-
+  
   onFocus(oWord: oWord): void {
     this.focusedRow = oWord;
   }

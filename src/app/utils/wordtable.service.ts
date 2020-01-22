@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { oWord } from '../models/oWord';
 import { AudioService } from '../audio.service';
 import { ReviseService } from '../revise.service';
+import { WordService } from '../Word.service';
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +11,8 @@ export class WordtableService {
 
   constructor(
     private audio: AudioService,
-    private reviseService: ReviseService
+    private reviseService: ReviseService,
+    private wordService: WordService
     ) { }
 
   checkAnswer(element, oWord: oWord, index) {
@@ -27,7 +29,7 @@ export class WordtableService {
     const index = +oEvent.target.id;
     // enter
     if (oEvent.keyCode === 13) {
-      this.showHint(oEvent, oWord);
+      this._showHint(oEvent, oWord);
       try {
         document.getElementById(String(index + 1)).focus();
       } catch(er) {
@@ -57,9 +59,17 @@ export class WordtableService {
     }
   };
 
-  showHint(oEvent, oWord: oWord): void {
+  _showHint(oEvent, oWord: oWord): void {
     oEvent.target.value = "";
     oEvent.target.placeholder = oWord.english;
     this.audio.play(oWord);
+    this._moveToNew(oWord);
   };
+
+  _moveToNew(oWord: oWord) {
+    oWord.nextRevise = null;
+    oWord.nuberOfRevise = null;
+    debugger;
+    this.wordService.send(`/words`, oWord).subscribe();
+  }
 }
