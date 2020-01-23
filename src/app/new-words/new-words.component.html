@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 <h3>Total quantity of unlearned words: {{iUnlearnedTotal}}</h3>
->>>>>>> origin/English_app
 <app-table-header [sTableTitle]="sTableTitle"></app-table-header>
 <table>
   <thead>
@@ -9,31 +6,22 @@
     <td>Word</td>
     <td>Input</td>
     <td></td>
-<<<<<<< HEAD
     <td></td>
-    <td></td>
-  </thead>
-  <tbody>
-    <tr *ngFor="let oWord of aVocab; index as i">
-      <td>{{i + 1}}</td>
-      <td>{{oWord.russian}}</td>
-      <td>
-          <input type="text" (input)="checkAnswer($event.target.value, oWord)" (keyup)="onKeyup($event, oWord)">
-      </td>
-      <td>
-          <button (click)="onMarkLearned(oWord)">Learned</button>
-      </td>
-=======
   </thead>
   <tbody>
     <tr *ngFor="let oWord of aVocab; index as i" [class.focused]="oWord === focusedRow">
       <td>{{i + 1}}</td>
       <td>{{oWord.russian}}</td>
+      <td *ngIf="oWord.imagePath && oWord.imagePath !== 'https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png'">
+        <img src={{oWord.imagePath}} class="image"/>
+      </td>
+      <td *ngIf="!oWord.imagePath || oWord.imagePath === 'https://contentcdn.lingualeo.com/uploads/upimages/0bbdd3793cb97ec4189557013fc4d6e4bed4f714.png'">
+        <img src="https://www.cicar.com/html/thumbnails/noimage.png" class="image"/>
+      </td>
       <td>
           <input type="text" [attr.id]="i" (input)="checkAnswer($event.target, oWord, i)" (keyup)="onKeyup($event, oWord)" (focus)="onFocus(oWord)">
       </td>
       <td><button (click)="onLearned($event, oWord)" tabindex="-1">Learned</button></td>
->>>>>>> origin/English_app
     </tr>
   </tbody>
 </table>

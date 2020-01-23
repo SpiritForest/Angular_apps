@@ -1,13 +1,10 @@
 table {
     width: 50%;
     border-collapse: collapse;
+    margin: 0 auto;
   }
   
   thead > td {
-<<<<<<< HEAD
-    border: 1px solid black;
-=======
->>>>>>> origin/English_app
     background-color: #ebf3f9;
   }
   
@@ -25,4 +22,18 @@ table {
   
   td {
     vertical-align: center;
+  }
+
+  .image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+
+  input {
+    height: 25px;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+    margin: 0 0.5rem;
+    outline: none;
   }

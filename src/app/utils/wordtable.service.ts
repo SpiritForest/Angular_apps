@@ -10,6 +10,7 @@ import { WordService } from '../Word.service';
 export class WordtableService {
   
   iUncheckedWords: number;
+  iTotalNumber: number;
 
   constructor(
     private audio: AudioService,
@@ -23,7 +24,15 @@ export class WordtableService {
 
   setUncheckedWords(iNumber: number) {
     this.iUncheckedWords = iNumber || 0;
-  } 
+  }
+
+  setiTotalNumber (iNumber) {
+    this.iTotalNumber = iNumber;
+  }
+
+  getiTotalNumber(): number {
+    return this.iTotalNumber;
+  }
 
   checkAnswer(element, oWord: oWord, index) {
     if (element.value.toLowerCase() === oWord.english.toLowerCase()) {
@@ -32,6 +41,7 @@ export class WordtableService {
       this.reviseService.sendToRevise(oWord);
       this.audio.play(oWord);
       this.iUncheckedWords -= 1;
+      this.iTotalNumber -=1;
       if (this.iUncheckedWords) {
         const oElement = document.getElementById(index + 1);
         oElement.focus();
