@@ -3,7 +3,7 @@
         "target": "http://localhost:3000",
         "secure": "false"
     },
-    "learned/*" : {
+    "/learned/*" : {
         "target": "http://localhost:3000",
         "secure": "false"
     }

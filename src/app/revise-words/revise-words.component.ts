@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { WordService } from '../Word.service';
+import { AudioService } from '../audio.service';
+import { ReviseService } from '../revise.service';
+import { oWord } from '../models/oWord';
+import { WordtableService } from '../utils/wordtable.service';
 
 @Component({
   selector: 'app-revise-words',
@@ -8,10 +12,15 @@ import { WordService } from '../Word.service';
 })
 export class ReviseWordsComponent implements OnInit {
 
-  aVocab;
+  aVocab = [];
+  focusedRow;
   sTableTitle: string;
 
-  constructor(private wordService: WordService) { }
+  constructor(
+    private wordService: WordService, 
+    private audio: AudioService,
+    private reviseService: ReviseService,
+    private tableService: WordtableService) { }
 
   ngOnInit() {
     this.getWordsToRevise();
@@ -24,43 +33,24 @@ export class ReviseWordsComponent implements OnInit {
       .subscribe(aResult => {
         this.aVocab = aResult.filter(element => iCurrentDate > element.nextRevise && element.nextRevise);
         this.setTableTitle();
+        this.tableService.setUncheckedWords(this.aVocab.length);
       });
   }
 
-  checkAnswer(sValue, oWord) {
-    if (sValue.toLowerCase() === oWord.english.toLowerCase()) {
-      this.deleteWordFromTable(oWord);
-      this.sendToRevise();
-    }
-  }
-
-  deleteWordFromTable(oWord) {
-    const index = this.aVocab.indexOf(oWord);
-    this.aVocab.splice(index, 1);
-    this.setTableTitle();
+  checkAnswer(element, oWord: oWord, index) {
+    this.tableService.checkAnswer(element, oWord, index);
   }
 
   setTableTitle(): void {
-    this.sTableTitle = `Words (${this.aVocab.length})`;
+    this.sTableTitle = `Words (${this.tableService.getUncheckedWords()})`;
   }
 
-  sendToRevise() {
-
+  onKeyup(oEvent, oWord: oWord): void {
+    this.tableService.onKeyup(oEvent, oWord);
   }
 
-  onKeyup(oEvent, oWord) {
-    if (oEvent.keyCode === 13) {
-      this.showHint(oEvent, oWord);
-    }
-  }
-
-  showHint(oEvent, oWord) {
-    oEvent.target.value = "";
-    oEvent.target.placeholder = oWord.english;
-  }
-
-  onFocus(oWord) {
-    console.log(oWord.english);
+  onFocus(oWord: oWord): void {
+    this.focusedRow = oWord;
   }
 
 }
