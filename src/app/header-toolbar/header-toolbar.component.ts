@@ -6,23 +6,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header-toolbar.component.css']
 })
 export class HeaderToolbarComponent implements OnInit {
-  bIsNewPres: boolean;
+  bIsNewPress: boolean = true;
   iWordsForLearn: number;
+  currentText: string;
 
   constructor() { }
 
   ngOnInit() {
-    this.bIsNewPres = true;
+    this.bIsNewPress = true;
   }
 
-  onClick(sText):void {
-    switch(sText) {
+  onClick(oEvent):void {
+    const sValue = oEvent.target.textContent || oEvent.target.text;
+    switch(sValue) {
       case "New": {
-        this.bIsNewPres = true;
+        this.bIsNewPress = true;
         break;
       }
       case "Revise": {
-        this.bIsNewPres = false;
+        this.bIsNewPress = false;
         break;
       }
     }

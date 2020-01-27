@@ -1,6 +1,12 @@
 <nav>
-  <a [class]="bIsNewPres ? 'mat-raised-button routerLink' : 'mat-stroked-button'" (click)="onClick($event.target.text)" routerLink="/new-words">New</a>
-  <a [class]="!bIsNewPres ? 'mat-raised-button routerLink' : 'mat-stroked-button'" (click)="onClick($event.target.text)" routerLink="/revise">Revise</a>
+  <div *ngIf="!bIsNewPress">
+    <a mat-stroked-button (click)="onClick($event)"    routerLink="/new-words">New</a>
+    <a mat-raised-button (click)="onClick($event)"  routerLink="/revise">Revise</a>
+  </div>
+  <div *ngIf="bIsNewPress">
+    <a mat-raised-button (click)="onClick($event)"  routerLink="/new-words">New</a>
+    <a mat-stroked-button (click)="onClick($event)" routerLink="/revise">Revise</a>
+  </div>
   <label>
     Enter number of learned words:
     <input type="number" [(ngModel)]="iWordsForLearn"/>
