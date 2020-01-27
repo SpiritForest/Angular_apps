@@ -13,6 +13,7 @@ import {
   oWord
 } from '../models/oWord';
 
+
 @Component({
   selector: 'app-new-words',
   templateUrl: './new-words.component.html',
@@ -20,6 +21,7 @@ import {
 })
 export class NewWordsComponent implements OnInit, AfterViewInit {
 
+  columnsToDisplay = ['english', 'image', 'input', ];
   iUnlearnedTotal: number;
   aVocab;
   focusedRow;
@@ -76,6 +78,7 @@ export class NewWordsComponent implements OnInit, AfterViewInit {
 
   checkAnswer(element, oWord: oWord, index) {
     this.tableService.checkAnswer(element, oWord, index);
+    this.setTableTitle();
   }
 
   deleteWordFromTable(oWord: oWord) {

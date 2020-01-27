@@ -32,6 +32,7 @@ export class ReviseWordsComponent implements OnInit {
     this.wordService.getWords('/words')
       .subscribe(aResult => {
         this.aVocab = aResult.filter(element => iCurrentDate > element.nextRevise && element.nextRevise);
+        this.tableService.setUncheckedWords(this.aVocab.length);
         this.setTableTitle();
         this.tableService.setUncheckedWords(this.aVocab.length);
       });
@@ -39,6 +40,7 @@ export class ReviseWordsComponent implements OnInit {
 
   checkAnswer(element, oWord: oWord, index) {
     this.tableService.checkAnswer(element, oWord, index);
+    this.setTableTitle();
   }
 
   setTableTitle(): void {

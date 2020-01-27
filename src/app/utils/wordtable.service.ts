@@ -121,4 +121,6 @@ export class WordtableService {
     oWord.nuberOfRevise = null;
     this.wordService.send(`/words`, oWord).subscribe();
   }
+
+  
 }
