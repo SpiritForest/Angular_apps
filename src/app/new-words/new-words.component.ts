@@ -21,7 +21,7 @@ import {
 })
 export class NewWordsComponent implements OnInit, AfterViewInit {
 
-  columnsToDisplay = ['english', 'image', 'input', ];
+  columnsToDisplay = ['russian', 'image', 'input', 'learned'];
   iUnlearnedTotal: number;
   aVocab;
   focusedRow;

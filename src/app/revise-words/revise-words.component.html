@@ -1,24 +1,19 @@
-<app-table-header [sTableTitle]="sTableTitle"></app-table-header>
-  <div class="wrapper">
-  <table>
-    <thead>
-      <td>Number</td>
-      <td>Word</td>
-      <td>Input</td>
-    </thead>
-    <tbody>
-      <tr *ngFor="let oWord of aVocab; index as i" [class.focused]="oWord === focusedRow">
-        <td>{{i + 1}}</td>
-        <td>{{oWord.russian}}</td>
-        <td>
-          <input type="text" [attr.id]="i" (input)="checkAnswer($event.target, oWord, i)"
-            (keyup)="onKeyup($event, oWord)" (focus)="onFocus(oWord)">
-        </td>
-      </tr>
-    </tbody>
+  <app-table-header [sTableTitle]="sTableTitle"></app-table-header>
+  
+  <table mat-table [dataSource]="aVocab">
+    <ng-container matColumnDef="russian">
+      <th mat-header-cell *matHeaderCellDef>Russian</th>
+      <td mat-cell *matCellDef="let oWord">{{oWord.russian}}</td>
+    </ng-container>
+  
+    <ng-container matColumnDef="input">
+      <th mat-header-cell *matHeaderCellDef>Input</th>
+      <td mat-cell *matCellDef="let oWord; let i = index">
+        <input type="text" [attr.id]="i" (input)="checkAnswer($event.target, oWord, i)"
+        (keyup)="onKeyup($event, oWord)" (focus)="onFocus(oWord)"/>
+      </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="columnsToDisplay"></tr>
+    <tr mat-row *matRowDef="let rowData; columns: columnsToDisplay"></tr>
   </table>
-  <div *ngIf="!aVocab.length">
-    <h3>There no words to revise!!!</h3>
-    <h1>Congratulations!!!!</h1>
-  </div>
-</div>

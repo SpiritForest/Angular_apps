@@ -15,6 +15,7 @@ export class ReviseWordsComponent implements OnInit {
   aVocab = [];
   focusedRow;
   sTableTitle: string;
+  columnsToDisplay=['russian', 'input']
 
   constructor(
     private wordService: WordService, 
