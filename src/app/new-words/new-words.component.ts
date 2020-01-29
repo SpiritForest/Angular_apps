@@ -107,7 +107,18 @@ export class NewWordsComponent implements OnInit, AfterViewInit {
   }
 
   onLearned(oEvent, oWord: oWord) {
-    oEvent.target.style.background = "#b0f7b3";
+    let oButton;
+    
+    if (oEvent.target.childElementCount === 0) {
+      oButton = oEvent.target.parentNode;
+    } 
+    else {
+      oButton = oEvent.target;
+    }
+
+    oButton.style.background = "#b0f7b3";
+    oButton.disabled = true;
+
     this.wordService.markLearned(oWord);
   }
 }

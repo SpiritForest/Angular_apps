@@ -110,7 +110,7 @@ export class WordtableService {
     oInput.value = "";
     oInput.placeholder = oWord.english;
     oInput.disabled = "true";
-    oInput.setAttribute("style", "background:#fcb1bd")
+    oInput.setAttribute("style", "background: #fcb1bd")
     this.audio.play(oWord);
     this.iUncheckedWords -= 1;
     this._moveToNew(oWord);
